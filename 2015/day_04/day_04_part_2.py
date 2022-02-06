@@ -15,7 +15,7 @@ def resolve_problem(data_file):
     answer = 0
     crypt = '111111'
     
-    while crypt[:6] != '000000': # ne pas oublier de modifier la chaine contenant 6 zéros ET la syntaxe en slice (avec crypt[:5] != '000000' on peut attendre longtemps que le programme se finisse...
+    while crypt[:6] != '000000': # ne pas oublier de modifier la chaine contenant 6 zéros ET la syntaxe en slice (avec crypt[:5] != '000000' on peut attendre longtemps que le programme se finisse...)
         
         answer += 1
         
