@@ -100,6 +100,7 @@ def resolve_problem(data_file):
         
         distances.append(distance)
     
+    # Seul endroit du code où on va charger le programme de la partie 1 pour traiter la partie 2
     print('\nLe chemin de longueur minimale qui passe par toutes les villes a pour distance : ', max(distances), '\n')
     
     

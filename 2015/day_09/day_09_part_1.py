@@ -33,6 +33,9 @@ import matplotlib.pyplot as plt
 import math
 import random
 
+# Notons que le module itertools contient la fonction permutations()
+# non utilisée ici mais qui aurait permi de sévèrement alléger le code
+
 def all_single_paths(l):
     '''
     Dans un graphe, j'appelle "single path" un chemin qui passe une seule fois par chaque noeud.
