@@ -61,7 +61,8 @@ def resolv_problem(seq, n): # une sequence, un nombre de fois qu'on joue
         
 
 choix = input("Choisissez l'input :\n\
-t : Thierry\n\n")
+t : Thierry\n\
+(n'importe quel autre choix permettra d'entrer manuellement une séquence)\n\n")
 
 if choix == 't':
     sequence = '3113322113'
@@ -74,7 +75,11 @@ Partie 2 : 50 (quelques heures).\n\n')
 
 nb_iter = int(input("Combien d'itérations? "))
 
-print(len(resolv_problem(sequence, nb_iter)))
+
+result = resolv_problem(sequence, nb_iter)
+
+print(result)
+print(len(result))
         
         
         
