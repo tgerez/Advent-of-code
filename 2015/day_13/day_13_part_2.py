@@ -75,7 +75,6 @@ def resolve_problem(data_file):
 
 print(resolve_problem('day_13_my_input'))
 
-# copy and past the resulting string in a python shell to give the result
 
 
 
